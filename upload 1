@@ -1,0 +1,18 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+ReactDOM.render(
+  <div>
+    <h1> Welcome to Fish Tracker!</h1>
+    <p>
+      Where you can upload photos and track all your favorite fish data like...
+    </p>
+    <ul>
+      <li>species</li>
+      <li>caught location</li>
+      <li>bait used</li>
+      <li>water temperature</li>
+    </ul>
+  </div>,
+  document.getElementById("root")
+);
